@@ -1,10 +1,4 @@
-require './work'
+animales = ["perro","gato","loro","zorro"]
 
-w = Work.new
-palabra = "level"
-
-
-puts("**** Ejemplo de clases usando la clase Work ****")
-puts("Palarba escojida #{palabra}")
-puts("¿La palabra es palindroma? #{w.palindrome?(palabra)}")
-
+puts("**** Ejemplo Para probar Blocks con un array usando el metodo each****")
+animales.each{|animal| puts "#{animal} es un animal"}

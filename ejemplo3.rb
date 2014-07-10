@@ -1,8 +1,10 @@
-require './word_string'
+require './work'
 
-w = WordString.new("level")
+w = Work.new
+palabra = "level"
 
-puts("**** Ejemplo de clases usando la clase Work String****")
-puts("Palarba escojida #{w}")
-puts("¿La palabra es palindroma? #{w.palindrome?}")
+
+puts("**** Ejemplo de clases usando la clase Work ****")
+puts("Palarba escojida #{palabra}")
+puts("¿La palabra es palindroma? #{w.palindrome?(palabra)}")
 
